@@ -33,13 +33,15 @@ pip install pandas numpy scikit-learn matplotlib rdkit
 Open and run the notebook `mol-sol.ipynb` step by step. The notebook will:
 - Load the dataset
 - Compute molecular descriptors
-- Train a linear regression model
+- Train a **linear regression** model
+- Test other regression models (**Ridge**, **Lasso**, **Elastic Net LR**, and **Gradient Boosting for regression**.)
 - Evaluate and visualize the results
 
-## Example Plot
-Below is an example of the plot generated in the notebook (cell 35), showing measured vs. predicted solubility for both training and test sets:
+## Linear Regression Plot
+Plots showing measured vs. predicted solubility for both training and test sets for linear regression and gradient boosting.
 
-![Measured vs Predicted Solubility](plot_measured_vs_predicted.png)
+![Measured vs Predicted Solubility LR](plot_measured_vs_predicted.png)
+![Measured vs Predicted Solubility GB](plot_measured_vs_predicted_5.png)
 
 ## References
 - Delaney, J. S. (2004). "ESOL: Estimating Aqueous Solubility Directly from Molecular Structure." *Journal of Chemical Information and Computer Sciences*, 44(3), 1000–1005. [Link](https://pubs.acs.org/doi/10.1021/ci034243x)
