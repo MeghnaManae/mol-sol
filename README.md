@@ -37,7 +37,7 @@ Open and run the notebook `mol-sol.ipynb` step by step. The notebook will:
 - Test other regression models (**Ridge**, **Lasso**, **Elastic Net LR**, and **Gradient Boosting for regression**.)
 - Evaluate and visualize the results
 
-## Linear Regression Plot
+## Visualizing results
 Plots showing measured vs. predicted solubility for both training and test sets for linear regression and gradient boosting.
 
 ![Measured vs Predicted Solubility LR](plot_measured_vs_predicted.png)
